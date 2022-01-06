@@ -1,0 +1,145 @@
+#destacados{
+   
+    
+}
+#destacados h4 {
+    text-align: left;
+}
+#destacados h6 {
+    text-align:center;
+}
+#destacados h3 {
+    text-align: center;
+}
+#destacados .contenedor{
+     border: 3px solid #093777;;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+	    background-color: #235499;
+}
+#destacados .contenedor h3{
+    width: auto;
+    max-width: 280px;
+    background: #235499;
+    color: white;
+    font-size: 15px;
+	
+    
+}
+
+#destacados article {
+    margin: 15px;
+    border: solid #235499;
+    border-radius: 15px;
+    padding: 10px;
+	    background-color: #fff;
+    
+}
+#destacados img {
+    width: 100%;
+    max-width: 280px;
+    border-radius: 15px;
+    margin: 150px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+#destacados qr img{
+    width: 150px;
+}
+#destacados boton{
+    margin-left: -150px;
+}
+#destacados h5{
+    text-align: left;
+    font-size: 15px;
+}
+#destacados h4{
+    margin-left: 50px;
+}
+#destacados p{
+    margin-left: 50px;
+    width: 400px;
+}
+#presentacion h5{
+    text-align: left;
+    font-size: 15px;
+}
+#presentacion h3 {
+    margin-left: 15px;
+    text-align: left;
+}
+#presentacion h4{
+    text-align:left;
+   
+}
+#destacados2{
+   
+    
+}
+#destacados2 h4 {
+    text-align: left;
+}
+#destacados2 h6 {
+    text-align:center;
+}
+#destacados2 h3 {
+    text-align: center;
+}
+#destacados2 .contenedor2{
+     border: 3px solid red;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+#destacados2 .contenedor2 h3{
+    width: auto;
+    max-width: 500px;
+    background: rgba(0,0,0,0.3);
+    color: white;
+    font-size: 15px;
+    
+}
+
+#destacados2 article {
+    margin: 15px;
+    
+}
+#destacados2 article2 {
+    margin: 15px;
+    width: 500px;
+    background: rgba(0,0,0,0.1);
+    
+}
+#destacados2 article2 h1{
+   margin: 15px;
+    width: 500px;
+    color: black;
+    font-size: 18px;
+}
+#destacados2 article2 h2{
+   margin: 15px;
+    width: 500px;
+    color: black;
+    font-size: 15px;
+}
+#destacados2 article2 h3{
+   margin: 15px;
+    width: 500px;
+    color: black;
+}
+#destacados2 article3 {
+    margin: auto;
+    border: 5px solid rgba(0,0,0, 0.3);
+    
+}
+#destacados2 img {
+    width: 100%;
+    max-width: 500px;
+    border: 5px solid rgba(0,0,0, 0.3);
+}
+#destacados2 h5{
+    text-align: left;
+    font-size: 15px;
+}
