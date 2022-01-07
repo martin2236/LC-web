@@ -2031,3 +2031,14 @@ height: 800px;
     display: flex;
     align-items: center;
 }
+@media only screen and (max-width: 600px) {
+    .module-text-short {
+        color: #fff; 
+        margin-top: 10px; 
+        max-width: 950px;
+        height: 250px;
+        overflow-y: auto; 
+        display: flex;
+        align-items: start;
+    }
+  }
