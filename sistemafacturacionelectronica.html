@@ -30,6 +30,8 @@
     
     <!-- Google Web Fonts  -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700">
+    <!--AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
     
     <!-- HTML5 shiv and Respond.js support IE8 or Older for HTML5 elements and media queries -->
@@ -143,7 +145,10 @@ list-style: square inside;
                     <div class="container pad-bot-50 section-title-dom" style=" background: #FF0000;; border: solid 5px #610e0e;" >
                         <div class="heading">
                             <center><h1>Módulos</h1></center>
-                   </div></div>
+                   </div>
+                </div>
+
+                <div class="module-container" data-aos="zoom-in"> 
                     <div class="solapa1" style=" background: #FF0000;; border: solid 5px #610e0e;">Administración de Clientes</div>
 				    <div class="imtexr" style=" background: #FF0000;; border: solid 5px #610e0e;">
                         <div style="grid-column: 1/2;">						
@@ -165,39 +170,63 @@ list-style: square inside;
                             </ul>
                         </div>
                     </div>
+                </div>
+
+                <div class="module-container" data-aos="zoom-in"> 
                     <div  class="solapa1" style=" background: #FF0000;; border: solid 5px #610e0e;"> Facturacion Electronica</div>
                     <div class="imtexr" style=" background: #FF0000;; border: solid 5px #610e0e;">
                         <div style="grid-column: 1/2;">
                             <img class="module-img" src="img/fe.jpg">
                         </div>
-                        <div style="grid-column: 2/3;"><ul class="module-text"><li>Este sistema, te permite facturar a travéz de internet directamente en AFIP</li><br><li>Llevar un control exacto de las ventas con venta directa, y continua</li><br><li>Exportar los archivos listos para enviar al contador</li><br><li>Cobros en efectivo, Cta Cte, Tarjeta (Posee un listado con todos los porcentajes de cada tarjeta)</li><br><li>Se puede cargar un pago con cheques en caso de habilitar la opcion</li><br><li>Se puede generar un Qr para abonar con Mercado pago (opcional)</li><br><li>Para los Responsables Inscriptos, el sistema calcula automaticamente todos los valores de porcentajes</li></ul>
+                        <div style="grid-column: 2/3;">
+                            <ul class="module-text">
+                                <li>Este sistema, te permite facturar a travéz de internet directamente en AFIP</li>
+                                <br>
+                                <li>Llevar un control exacto de las ventas con venta directa, y continua</li>
+                                <br>
+                                <li>Exportar los archivos listos para enviar al contador</li>
+                                <br>
+                                <li>Cobros en efectivo, Cta Cte, Tarjeta (Posee un listado con todos los porcentajes de cada tarjeta)</li>
+                                <br>
+                                <li>Se puede cargar un pago con cheques en caso de habilitar la opcion</li>
+                                <br>
+                                <li>Se puede generar un Qr para abonar con Mercado pago (opcional)</li>
+                                <br>
+                                <li>Para los Responsables Inscriptos, el sistema calcula automaticamente todos los valores de porcentajes</li>
+                            </ul>
                         </div>
                     </div>
+                </div>
+
+                <div class="module-container" data-aos="zoom-in"> 
                     <div  class="solapa1" style=" background: #FF0000;; border: solid 5px #610e0e;"> Productos o Servicios</div>
                     <div class="imtexr" style=" background: #FF0000;; border: solid 5px #610e0e;">
                         <div style="grid-column: 1/2;">
                             <img class="module-img" src="img/ps.jpg">
                         </div>
                         <div style="grid-column: 2/3;">
-                        <ul class="module-text">
-                            <li>Administrá cada uno de tus productos y servicios</li>
-                            <br>
-                            <li>Ahorrá tiempo y dinero, organizá tu negocio y mantené el stock exacto de tus productos</li>
-                            <br>
-                            <li>Generá tus propios códigos de barra, Qr o utiliza los existentes</li>
-                            <br>
-                            <li>Avisos de productos con fecha de Vencimiento</li>
-                            <br>
-                            <li>Avisos de stock mínimo</li>
-                            <br>
-                            <li>Cambio de precio por familia, proveedor o individual</li>
-                            <br>
-                            <li>Los productos de tu stock pueden incluir una foto para poder identificarlos de una forma más rápida y sencilla</li>
-                            <br>
-                            <li>Historial y Estadística de ventas de cada producto</li>
-                        </ul>
+                            <ul class="module-text">
+                                <li>Administrá cada uno de tus productos y servicios</li>
+                                <br>
+                                <li>Ahorrá tiempo y dinero, organizá tu negocio y mantené el stock exacto de tus productos</li>
+                                <br>
+                                <li>Generá tus propios códigos de barra, Qr o utiliza los existentes</li>
+                                <br>
+                                <li>Avisos de productos con fecha de Vencimiento</li>
+                                <br>
+                                <li>Avisos de stock mínimo</li>
+                                <br>
+                                <li>Cambio de precio por familia, proveedor o individual</li>
+                                <br>
+                                <li>Los productos de tu stock pueden incluir una foto para poder identificarlos de una forma más rápida y sencilla</li>
+                                <br>
+                                <li>Historial y Estadística de ventas de cada producto</li>
+                            </ul>
                         </div>
                     </div>
+                </div>
+
+                <div class="module-container" data-aos="zoom-in"> 
                     <div  class="solapa1" style=" background: #FF0000;; border: solid 5px #610e0e;"> Relación con clientes</div>
                     <div class="imtexr" style=" background: #FF0000;; border: solid 5px #610e0e;">
                         <div style="grid-column: 1/2;">
@@ -220,88 +249,105 @@ list-style: square inside;
                                 <li>Conocé que cliente fué el que más consumió entre dos fechas</li>
                                 <br>
                                 <li>Visualizá quién fué noticiado de sus beneficios y felicitado por el motivo que fuera; indicando el día, la hora, el motivo y metódo de aviso.</li>
-
                             </ul>
-
                         </div>
                     </div>
-                        <div  class="solapa1" style=" background: #FF0000;; border: solid 5px #610e0e;">Niveles de Usuarios</div>
+                </div>
+
+                <div class="module-container" data-aos="zoom-in"> 
+                    <div  class="solapa1" style=" background: #FF0000;; border: solid 5px #610e0e;">Niveles de Usuarios</div>
 				    <div class="imtexr" style=" background: #FF0000;; border: solid 5px #610e0e;">
                         <div style="grid-column: 1/2;">						
                             <img class="module-img" src="img/login.png">
                         </div>
-                        <div style="grid-column: 2/3;"><ul class="module-text-short"><li>Cuenta con diferentes niveles de usuarios, cada usuario podra acceder a determinadas partes del sistema, y quedara registrado cada movimiento que hagan dentro del sistema.</li></ul>
-                        </div>
-                    </div>
-
-                    <div  class="solapa1" style=" background: #FF0000;; border: solid 5px #610e0e;">Depositos / Salones</div>
-				    <div class="imtexr" style=" background: #FF0000;; border: solid 5px #610e0e;">
-                        <div style="grid-column: 1/2;">						
-                            <img class="module-img"  src="img/dp.jpg">
-                        </div>
                         <div style="grid-column: 2/3;">
-                            <h4  style="margin-left: 20px;color: #fff; text-decoration: underline; margin-bottom: 15px;">Comunicate con tus clientes a travez de:</h4> 
-                            <ul class="module-text">
-                                <li>Administrá tus Depositos</li>
-                                <br>
-                                <li>Separá tu stock, pero conocelo en todo momento</li>
-                                <br>
-                                <li>Organizá tu stock en distintos depositos y mantené un control total sobre cada uno de tus productos</li>
-                                <br>
-                                <li>Conocé, en que salon se encuentran tus productos</li>
-                                <br>
-                                <li>Manejá stock mínimo de depocitos y salones</li>
-                                <br>
-                                <li>Moviliza la mercadería de un depósito a otro con un clíck</li>
+                            <ul class="module-text-short">
+                                <li>Cuenta con diferentes niveles de usuarios, cada usuario podra acceder a determinadas partes del sistema, y quedara registrado cada movimiento que hagan dentro del sistema.</li>
                             </ul>
                         </div>
                     </div>
+                </div>
+                    
+                    <div class="module-container" data-aos="zoom-in"> 
+                        <div  class="solapa1" style=" background: #FF0000;; border: solid 5px #610e0e;">Depositos / Salones</div>
+				        <div class="imtexr" style=" background: #FF0000;; border: solid 5px #610e0e;">
+                            <div style="grid-column: 1/2;">						
+                                <img class="module-img"  src="img/dp.jpg">
+                            </div>
+                            <div style="grid-column: 2/3;">
+                                <h4  style="margin-left: 20px;color: #fff; text-decoration: underline; margin-bottom: 15px;">Comunicate con tus clientes a travez de:</h4> 
+                                <ul class="module-text">
+                                    <li>Administrá tus Depositos</li>
+                                    <br>
+                                    <li>Separá tu stock, pero conocelo en todo momento</li>
+                                    <br>
+                                    <li>Organizá tu stock en distintos depositos y mantené un control total sobre cada uno de tus productos</li>
+                                    <br>
+                                    <li>Conocé, en que salon se encuentran tus productos</li>
+                                    <br>
+                                    <li>Manejá stock mínimo de depocitos y salones</li>
+                                    <br>
+                                    <li>Moviliza la mercadería de un depósito a otro con un clíck</li>
+                                </ul>
+                            </div>
+                        </div>
+                   </div>
 
-            
-                            <div  class="solapa1" style=" background: #FF0000;; border: solid 5px #610e0e;">Métodos de interacción con Clientes</div>
-				    <div class="imtexr" style=" background: #FF0000;; border: solid 5px #610e0e;">
-                        <div style="grid-column: 1/2;">						
-                            <img class="module-img" src="img/com.jpg">
+                   <div class="module-container" data-aos="zoom-in"> 
+                        <div  class="solapa1" style=" background: #FF0000;; border: solid 5px #610e0e;">Métodos de interacción con Clientes</div>
+				        <div class="imtexr" style=" background: #FF0000;; border: solid 5px #610e0e;">
+                            <div style="grid-column: 1/2;">						
+                                <img class="module-img" src="img/com.jpg">
+                            </div>
+                            <div style="grid-column: 2/3;">
+                                <h4  style="margin-left: 20px; color: #fff; text-decoration: underline; margin-bottom: 15px;">Con nuestro sistema prodrás:</h4> 
+                                <ul class="module-text">
+                                    <li>Comunicarte por medio de mensajes de texto SMS</li>
+                                    <br>
+                                    <li>Comunicarte por medio de Whatsap</li>
+                                    <br>
+                                    <li>Comunicarte por medio de correos eléctronicos</li>
+                                    <br>
+                                    <li>O también prodrás optar por la opción de utilizar nuestro propio sistema interno de notificaciones (Ver Notificaciones internas para clientes)</li>
+                                </ul>
+                            </div>
                         </div>
-                        <div style="grid-column: 2/3;">
-                            <h4  style="margin-left: 20px; color: #fff; text-decoration: underline; margin-bottom: 15px;">Con nuestro sistema prodrás:</h4> 
-                            <ul class="module-text">
-                                <li>Comunicarte por medio de mensajes de texto SMS</li>
-                                <br>
-                                <li>Comunicarte por medio de Whatsap</li>
-                                <br>
-                                <li>Comunicarte por medio de correos eléctronicos</li>
-                                <br>
-                                <li>O también prodrás optar por la opción de utilizar nuestro propio sistema interno de notificaciones (Ver Notificaciones internas para clientes)</li>
-                            </ul>
-                        </div>
-                    </div>
+                   </div>
+                   
+                   <div class="module-container" data-aos="zoom-in"> 
                         <div  class="solapa1" style=" background: #FF0000;; border: solid 5px #610e0e;">Estadisticas</div>
-                    <div class="imtexr" style=" background: #FF0000;; border: solid 5px #610e0e;">
-                        <div style="grid-column: 1/2;">
-                            <img class="module-img" src="img/estadisticas.jpg">
-                        </div>
-                        <div style="grid-column: 2/3;"><ul class="module-text-short">
-                            <li>Tenemos la seguridad que las estadísticas son la base para cualquier mejora. Es por ello que tenemos un módulo dedicado especificamente a las estadísticas, las cuales se terminan de adecuar a cada usuario en particular de acuerdo a sus necesidades</li>
-                        </ul>
+                        <div class="imtexr" style=" background: #FF0000;; border: solid 5px #610e0e;">
+                            <div style="grid-column: 1/2;">
+                                <img class="module-img" src="img/estadisticas.jpg">
+                            </div>
+                            <div style="grid-column: 2/3;"><ul class="module-text-short">
+                                <li>Tenemos la seguridad que las estadísticas son la base para cualquier mejora. Es por ello que tenemos un módulo dedicado especificamente a las estadísticas, las cuales se terminan de adecuar a cada usuario en particular de acuerdo a sus necesidades</li>
+                            </ul>
+                            </div>
                         </div>
                     </div>
+
+                <div class="module-container" data-aos="zoom-in"> 
                     <div  class="solapa1" style=" background: #FF0000;; border: solid 5px #610e0e;">Control de gastos</div>
 				    <div class="imtexr" style=" background: #FF0000;; border: solid 5px #610e0e;">
                         <div style="grid-column: 1/2;">						
                             <img class="module-img" src="img/cg.jpg" width ="10" height="200">
                         </div>
                         <div style="grid-column: 2/3;"><ul class="module-text">
-                            <li>Listado de gastos</li> 
-                            <br>
-                            <li>Controla quien realizo el gasto fecha y hora, conociendo desde que lugar lo cargo</li>
-                            <br>
-                            <li>Discrimina los gastos de las compras de proveedores (Solicitar información para Módulo de compras)</li>
-                            <br>
-                            <li>Autoriza quien puede cargar los gastos en efectivo, o cargas en Cta Cte</li>
-                        </ul>
+                            <ul>
+                                <li>Listado de gastos</li> 
+                                <br>
+                                <li>Controla quien realizo el gasto fecha y hora, conociendo desde que lugar lo cargo</li>
+                                <br>
+                                <li>Discrimina los gastos de las compras de proveedores (Solicitar información para Módulo de compras)</li>
+                                <br>
+                                <li>Autoriza quien puede cargar los gastos en efectivo, o cargas en Cta Cte</li>
+                            </ul>
                         </div>
                     </div>
+                </div>
+
+                <div class="module-container" data-aos="zoom-in"> 
                     <div  class="solapa1" style=" background: #FF0000;; border: solid 5px #610e0e;">Cuentas Corrientes</div>
                     <div class="imtexr" style=" background: #FF0000;; border: solid 5px #610e0e;">
                         <div style="grid-column: 1/2;">
@@ -325,7 +371,7 @@ list-style: square inside;
                             </ul>
                         </div>
                     </div>
-                    
+                </div>
                     
                 </div>
         
@@ -359,13 +405,16 @@ list-style: square inside;
     
     
     <!-- All Javascript Plugins  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/plugin.js"></script>
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyC0HAKwKinpoFKNGUwRBgkrKhF-sIqFUNA"></script>
     
     <!-- Main Javascript File  -->
     <script type="text/javascript" src="js/scripts.js"></script>
-  
+    <script>
+        AOS.init();
+    </script>
   
   </body>
  </html>
