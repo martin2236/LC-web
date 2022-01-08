@@ -2076,3 +2076,20 @@ height: 800px;
         align-items: start;
     }
   }
+  /*login*/
+
+  @media only screen and (max-width: 600px) {
+    .login-cont {
+       background: #f8f8f8;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .login-img {
+        display: none;
+    }
+  }
+  @media only screen and (min-width: 600px) {
+    .login-img-top {
+        display: none;
+    }
+  }
