@@ -88,6 +88,9 @@ h5,
 h6 {
 	font-family: 'Poppins', sans-serif;
 }
+.sistemas-h1{
+    font-size: 1.5rem;
+}
 
 /* custom dropdown*/
 
@@ -96,6 +99,11 @@ h6 {
     display: inline-block;
     color: #fff;
     padding: 27px 10px;
+  }
+  @media only screen and (max-width: 600px) {
+    .dropdown {
+        padding: 10px 15px;
+    }
   }
   
   .dropdown-content {
@@ -946,6 +954,11 @@ ul.portfolio li.active {
   top: 0px;
   padding: 60px 40px 60px 40px;
   margin-top: 32px;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: start;
+  align-items: center;
+  height: 500px;
 }
 
 .services-section .services-detail:hover {
@@ -1234,7 +1247,7 @@ ul.portfolio li.active {
 }
 
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 900px) {
     .navbar-toggle .icon-bar {
         background: #f8f8f8;
     }
@@ -2092,4 +2105,30 @@ height: 800px;
     .login-img-top {
         display: none;
     }
+  }
+
+  /*sistemas*/
+  .sistemas-cont-logo{
+    display: flex; 
+    justify-content: start; 
+    align-items: center; 
+    flex-direction: row;
+  }
+  .sistemas-logo{
+    height: 60px; 
+    margin-right: 10px; 
+    width: 60px; 
+    border-radius: 50%; 
+    background-color: #fff; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    border: 2px solid #558B2F;
+    overflow: hidden;
+    min-width: 60px;
+  }
+  .sistemas-text{
+    font-size: 3rem; 
+    min-width: 200px; 
+    text-align: center;
   }
