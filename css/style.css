@@ -2172,11 +2172,30 @@ height: 800px;
       text-align: center;
       height: 600px;
     }
+  }
+  .btn-module-cont{
+    grid-column: 2/3; 
+   
+}
+
+@media only screen and (max-width: 600px) {
     .btn-module-cont{
         grid-column: 2/3; 
         display: flex; 
         flex-direction: column; 
         align-items: center;
     }
-  }
+}
+.btn-servicios{
+    position: relative;
+    top: -40px;
+    margin:0 30%;
+}
+@media only screen and (max-width: 600px) {
+    .btn-servicios{
+        position: relative;
+        top: 10px;
+        margin:0 30%;
+    }
+}
   
