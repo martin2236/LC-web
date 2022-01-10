@@ -1,145 +1,69 @@
-#destacados{
-   
-    
-}
-#destacados h4 {
-    text-align: left;
-}
-#destacados h6 {
-    text-align:center;
-}
-#destacados h3 {
-    text-align: center;
-}
+
 #destacados .contenedor{
-     border: 3px solid #093777;;
+    border: 3px solid #093777;;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-	    background-color: #235499;
-}
-#destacados .contenedor h3{
-    width: auto;
-    max-width: 280px;
-    background: #235499;
-    color: white;
-    font-size: 15px;
-	
-    
+	background-color: #235499;
 }
 
-#destacados article {
-    margin: 15px;
-    border: solid #235499;
-    border-radius: 15px;
-    padding: 10px;
-	    background-color: #fff;
+.titulo{
+    width: 90%;
+     letter-spacing: 0.10em;
+     margin-top: 2em;
+     background: #1e1b59;
+	  font-weight: 700;
+      font-size: 35px;
+      padding: 5px 10px;
+      border-color: rgba(0,0,0,.8);
+      color: #FFF;
+       box-shadow: #0009 5px 7px 10px;
+       border-radius: 21px;
+}
+
+
+.card{
+    grid-template-rows: 1fr 2fr 2fr 2fr; 
+    width: 90%; 
+    background-color: #FFF; 
+    justify-content: center;
+     align-items: center;
+    max-width: 350px;
+    margin: 25px 25px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     
 }
-#destacados img {
-    width: 100%;
-    max-width: 280px;
-    border-radius: 15px;
-    margin: 150px;
+.card-h4{
+    grid-row: 1/2;
+    text-align: center;
+    text-decoration: underline;
     margin-bottom: 10px;
-    margin-top: 15px;
-    margin-left: 50px;
 }
-#destacados qr img{
+.card-img{
+    height: 200px; 
+    width: 200px;
+    border: solid 2px #000;
+    border-radius: 10px;
+    display: block;
+   margin: auto;
+}
+.card-text{
+    grid-row: 3/4; 
+    width: 90%;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.card-button-cont{
+    grid-row: 4/5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+}
+.card-qr{
+    height: 150px;
     width: 150px;
 }
-#destacados boton{
-    margin-left: -150px;
-}
-#destacados h5{
-    text-align: left;
-    font-size: 15px;
-}
-#destacados h4{
-    margin-left: 50px;
-}
-#destacados p{
-    margin-left: 50px;
-    width: 400px;
-}
-#presentacion h5{
-    text-align: left;
-    font-size: 15px;
-}
-#presentacion h3 {
-    margin-left: 15px;
-    text-align: left;
-}
-#presentacion h4{
-    text-align:left;
-   
-}
-#destacados2{
-   
-    
-}
-#destacados2 h4 {
-    text-align: left;
-}
-#destacados2 h6 {
-    text-align:center;
-}
-#destacados2 h3 {
-    text-align: center;
-}
-#destacados2 .contenedor2{
-     border: 3px solid red;
-    display: flex;
-    justify-content: left;
-    flex-wrap: wrap;
-}
-#destacados2 .contenedor2 h3{
-    width: auto;
-    max-width: 500px;
-    background: rgba(0,0,0,0.3);
-    color: white;
-    font-size: 15px;
-    
-}
 
-#destacados2 article {
-    margin: 15px;
-    
-}
-#destacados2 article2 {
-    margin: 15px;
-    width: 500px;
-    background: rgba(0,0,0,0.1);
-    
-}
-#destacados2 article2 h1{
-   margin: 15px;
-    width: 500px;
-    color: black;
-    font-size: 18px;
-}
-#destacados2 article2 h2{
-   margin: 15px;
-    width: 500px;
-    color: black;
-    font-size: 15px;
-}
-#destacados2 article2 h3{
-   margin: 15px;
-    width: 500px;
-    color: black;
-}
-#destacados2 article3 {
-    margin: auto;
-    border: 5px solid rgba(0,0,0, 0.3);
-    
-}
-#destacados2 img {
-    width: 100%;
-    max-width: 500px;
-    border: 5px solid rgba(0,0,0, 0.3);
-}
-#destacados2 h5{
-    text-align: left;
-    font-size: 15px;
-}
